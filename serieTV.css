@@ -1,0 +1,78 @@
+h1{
+    background-image: url(./images/header.jpg);
+    font-size: 5rem;
+    background-size: cover;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+header li{
+    border: solid thin;
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+}
+
+aside ul{
+  padding-left:0;
+}
+
+
+aside, h1, footer{
+    margin:0.5rem;
+    border: solid thin;
+    padding:1rem;
+}
+
+aside{
+    flex-basis: 20%;
+    flex-shrink: 0;
+
+}
+aside p, aside a{
+    margin: 1rem;
+}
+
+aside li{
+    border: solid thin;
+    background-color:  white;
+}
+body{
+    font-size:1rem;
+    background-image: url(./images/background2.jpg);
+    color : white
+    
+}
+
+
+main img{
+  flex-basis: 20%;
+    flex-shrink: 0;
+    padding : 1rem;
+}
+
+main li:nth-child(2n) img{
+  order:1;  
+}
+
+
+main li {
+    display: flex;
+    background-color: ;
+    color: white
+}
+
+ul{
+    list-style:none;
+}
+
+header a{
+    color: white;
+}
