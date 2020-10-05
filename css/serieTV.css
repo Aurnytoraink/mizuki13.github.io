@@ -1,5 +1,5 @@
 h1{
-    background-image: url(./images/header.jpg);
+    background-image: url(../assets/images/header.jpg);
     font-size: 5rem;
     background-size: cover;
 }
@@ -46,7 +46,7 @@ aside li{
 }
 body{
     font-size:1rem;
-    background-image: url(./images/background2.jpg);
+    background-image: url(../assets/images/background2.jpg);
     color : white
     
 }
