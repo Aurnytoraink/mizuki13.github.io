@@ -9,12 +9,16 @@ header ul{
     justify-content: space-between;
     padding: 1rem;
 }
+
 header li{
     border: solid thin;
     flex-grow: 1;
     text-align: center;
 }
 
+header li:nth-child(even) {
+    border: none;
+}
 
 main{
     display: flex;
@@ -44,6 +48,7 @@ aside li{
     border: solid thin;
     background-color:  white;
 }
+
 body{
     font-size:1rem;
     background-image: url(../assets/images/background2.jpg);
