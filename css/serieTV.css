@@ -65,7 +65,6 @@ main li:nth-child(2n) img{
 
 main li {
     display: flex;
-    background-color: ;
     color: white
 }
 
