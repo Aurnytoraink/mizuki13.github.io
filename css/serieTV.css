@@ -10,20 +10,31 @@
     background-position: 0%;
 }
 
-header ul{
+nav {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+nav ul{
     display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+    justify-content: center;
 }
 
-header li{
-    border: solid thin;
-    flex-grow: 1;
+nav li{
     text-align: center;
+    padding: 1em;
+    /* width: 100%; */
 }
 
-header li:nth-child(even) {
-    border: none;
+nav li a{
+    color: black;
+}
+
+.active {
+    background-color: rgb(5, 35, 100);
+}
+
+.active a {
+    color: white
 }
 
 main{
